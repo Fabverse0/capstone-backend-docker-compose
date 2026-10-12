@@ -1,0 +1,83 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1777658968082,
+      "tag": "0000_glorious_wildside",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1778496225008,
+      "tag": "0001_clammy_orphan",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1778698464132,
+      "tag": "0002_sleepy_franklin_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1778702527341,
+      "tag": "0003_loving_zombie",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1778702527342,
+      "tag": "0004_restore_deleted_at",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1779126694992,
+      "tag": "0005_clean_randall",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1779128455528,
+      "tag": "0006_lush_winter_soldier",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1779128544234,
+      "tag": "0007_sticky_shadow_king",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1779128986816,
+      "tag": "0008_red_vertigo",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1779215598382,
+      "tag": "0009_volatile_vanisher",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1779383300005,
+      "tag": "0010_open_lifeguard",
+      "breakpoints": true
+    }
+  ]
+}
