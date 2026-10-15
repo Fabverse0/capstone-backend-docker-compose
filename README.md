@@ -229,13 +229,3 @@ Jika source atau `Dockerfile` berubah, bangun image lagi dengan `docker compose 
 
 - Source/starter backend: [Elangprnd/Capstone-Project](https://github.com/Elangprnd/Capstone-Project). Repository ini memisahkan backend dari monorepo sumber; frontend tidak disertakan.
 - Dockerfile dan konfigurasi Compose disusun serta dijalankan oleh mahasiswa secara manual. ChatGPT/Codex digunakan sebagai bantuan belajar konsep Docker, diskusi pemecahan masalah, dan penyusunan README ini. README ini tidak memuat kredensial. File `.env` lokal tidak boleh dipublikasikan.
-
-## Berkas pengumpulan tugas
-
-Siapkan satu PDF yang berisi nama, NIM, judul proyek, link repository publik, dan link video YouTube publik atau unlisted. Gunakan pola nama file yang diminta:
-
-```text
-Tugas1_BackendIntermediate_Nama_NIM.pdf
-```
-
-Pastikan link repository dan video dapat dibuka sebelum mengumpulkan. Video demo maksimal 10 menit sesuai instruksi tugas.
