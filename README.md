@@ -1,6 +1,6 @@
 # Capstone Backend
 
-Repository ini menyiapkan source backend Capstone Project sebagai proyek terpisah untuk tugas individu Dockerisasi Backend. Source frontend tidak disertakan. Berkas Docker dan petunjuk pengerjaan Docker akan ditambahkan sendiri oleh mahasiswa.
+Repository ini menyiapkan source backend Capstone Project sebagai proyek terpisah untuk tugas individu Dockerisasi Backend. 
 
 ## Isi proyek
 
@@ -12,4 +12,4 @@ Repository ini menyiapkan source backend Capstone Project sebagai proyek terpisa
 ## Sumber dan bantuan
 
 - Source/starter: [Elangprnd/Capstone-Project](https://github.com/Elangprnd/Capstone-Project)
-- Codex membantu menyiapkan salinan backend terpisah dan README awal. Implementasi Docker akan dikerjakan manual oleh mahasiswa.
+
