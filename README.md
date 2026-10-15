@@ -15,6 +15,26 @@ Proyek ini menjalankan backend Capstone Project bersama PostgreSQL menggunakan D
 - `compose.yaml` untuk menjalankan backend dan database bersama.
 - `api.specs.md` berisi dokumentasi endpoint API.
 
+## Stack teknologi
+
+Stack berikut digunakan oleh backend Capstone yang dijalankan melalui Compose. Frontend proyek asal tidak disertakan dalam repository ini.
+
+| Bagian | Teknologi | Kegunaan |
+| --- | --- | --- |
+| Runtime | Node.js 22 | Menjalankan aplikasi backend. |
+| Bahasa | TypeScript | Menulis source backend dan menghasilkan JavaScript saat build. |
+| Framework API | Express 5 | Menyediakan route dan HTTP API. |
+| Database | PostgreSQL 17 | Menyimpan data aplikasi. |
+| Akses database dan skema | `pg`, Drizzle ORM, Drizzle Kit | Menghubungkan backend ke PostgreSQL dan mengelola skema. |
+| Validasi | Zod | Memvalidasi data request. |
+| Autentikasi | `jsonwebtoken`, `bcryptjs`, `google-auth-library` | JWT RS256, hash password, dan dukungan Google OAuth. |
+| Unggah media | Multer, Cloudinary | Menerima dan menyimpan file media. |
+| Email | Nodemailer | Mengirim email aplikasi, seperti alur reset password. |
+| Dokumentasi API | Swagger JSDoc, Scalar | Membuat dokumentasi API interaktif. |
+| Container | Docker, Docker Compose | Membangun image backend dan menjalankan backend bersama PostgreSQL. |
+
+Integrasi Google OAuth, Cloudinary, dan email memerlukan konfigurasi layanan terkait. Konfigurasi tersebut tidak diperlukan untuk uji dasar registrasi, login, dan persistensi database.
+
 ## Arsitektur dan port
 
 | Koneksi | Alamat | Kegunaan |
